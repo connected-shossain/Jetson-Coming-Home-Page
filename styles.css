@@ -67,17 +67,10 @@ html {
     color: #3859B1;
 }
 
-/* bootstrap md */
-@media (max-width: 768px) {
-    /*Align text to center.*/
-    .text-xs-center {
-        text-align: center;
-    }
-}
-/* bootstrap sm */
-@media (max-width: 576px) {
-    .dynamic-coming-soon-font-size {
-        font-size: 60px;
+/* bootstrap xl */
+@media (max-width: 1200px) {
+    .dynamic-marketing-font-size {
+        font-size: 20px;
     }
 }
 
@@ -85,6 +78,27 @@ html {
 @media (max-width: 992px) {
     .dynamic-coming-soon-font-size {
         font-size: 42px;
+    }
+    .dynamic-marketing-font-size {
+        font-size: 15px;
+    }
+}
+
+/* bootstrap md */
+@media (max-width: 768px) {
+    /*Align text to center.*/
+    .text-xs-center {
+        text-align: center;
+    }
+}
+
+/* bootstrap sm */
+@media (max-width: 576px) {
+    .dynamic-coming-soon-font-size {
+        font-size: 60px;
+    }
+    .dynamic-marketing-font-size {
+        font-size: 24px;
     }
 }
 
