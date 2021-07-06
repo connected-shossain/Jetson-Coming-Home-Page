@@ -3,9 +3,16 @@
 }
 
 body {
-    border: 2px solid black;
+    border: 4px solid red;
     background-image: url("./Fade.jpg");
 }
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 900px;
+    }
+}
+
 
 html {
     background: url(Fade.jpg) no-repeat center center fixed;
