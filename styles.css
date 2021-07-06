@@ -18,19 +18,19 @@ body {
 }
 
 .orderingFoodText {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 65px;
 
     color: #212529;
 }
 
 .comingSoonText {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 1800;
     font-size: 30px;
     line-height: 32px;
 
@@ -44,7 +44,7 @@ body {
 /* css xl */
 @media (max-width: 1200px) {
     .dynamic-ordering-food-font-size {
-        font-size: 40px;
+        font-size: 35px;
     }
     .dynamic-coming-soon-font-size {
         font-size: 25px;
@@ -54,7 +54,7 @@ body {
 /* css lg */
 @media (max-width: 992px) {
     .dynamic-ordering-food-font-size {
-        font-size: 32px;
+        font-size: 26px;
         line-height: 50px;
     }
     .dynamic-coming-soon-font-size {
@@ -73,7 +73,7 @@ body {
 /* css sm */
 @media (max-width: 576px) {
     .dynamic-ordering-food-font-size {
-        font-size: 30px;
+        font-size: 22px;
         line-height: 40px;
     }
     .dynamic-coming-soon-font-size {
