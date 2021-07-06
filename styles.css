@@ -58,6 +58,10 @@ body {
     color: #3859B1;
 }
 
+.personImg {
+    width: 100%;
+}
+
 /* bootstrap xl */
 @media (max-width: 1200px) {
     .dynamic-marketing-font-size {
