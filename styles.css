@@ -1,9 +1,9 @@
 .test {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 body {
-    border: 4px solid red;
+    /*border: 4px solid red;*/
     background-image: url("images/Fade.jpg");
 }
 
@@ -31,7 +31,7 @@ body {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 32px;
 
     color: #3859B1;
@@ -47,7 +47,7 @@ body {
         font-size: 40px;
     }
     .dynamic-coming-soon-font-size {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
