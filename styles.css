@@ -14,7 +14,7 @@ body {
 }
 
 .rowGap {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .orderingFoodText {
@@ -43,6 +43,9 @@ body {
 
 /* bootstrap xl */
 @media (max-width: 1200px) {
+    .dynamic-ordering-food-font-size {
+        font-size: 40px;
+    }
     .dynamic-coming-soon-font-size {
         font-size: 20px;
     }
@@ -51,7 +54,8 @@ body {
 /* bootstrap lg */
 @media (max-width: 992px) {
     .dynamic-ordering-food-font-size {
-        font-size: 42px;
+        font-size: 32px;
+        line-height: 50px;
     }
     .dynamic-coming-soon-font-size {
         font-size: 21px;
@@ -69,7 +73,8 @@ body {
 /* bootstrap sm */
 @media (max-width: 576px) {
     .dynamic-ordering-food-font-size {
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 40px;
     }
     .dynamic-coming-soon-font-size {
         font-size: 21px;
