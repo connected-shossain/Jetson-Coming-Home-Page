@@ -1,0 +1,67 @@
+.test {
+    border: 1px solid black;
+}
+
+body {
+    border: 2px solid black;
+}
+
+html {
+    background: url(Fade.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo {
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+
+.rowGap {
+    margin-top: 3%;
+}
+
+.comingSoonText {
+    /*position: relative;*/
+    /*top: 350%;*/
+    /*left: 3%;*/
+    /*text-align: center;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 80px;
+    /* or 133% */
+
+    color: #212529;
+}
+
+.marketingText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+    /*position: relative;*/
+    /*top: 350%;*/
+    /*left: 3%;*/
+
+    /* Primary Blue/Primary Blue */
+
+    color: #3859B1;
+}
+
+@media (max-width: 767px) {
+    /*Align text to center.*/
+    .text-xs-center {
+        text-align: center;
+    }
+}
