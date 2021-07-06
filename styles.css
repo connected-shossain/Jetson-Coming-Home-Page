@@ -4,7 +4,7 @@
 
 body {
     /*border: 4px solid red;*/
-    background-image: url("images/Fade.jpg");
+    background-image: url("images/fade.jpg");
 }
 
 .logo {
@@ -41,7 +41,7 @@ body {
     width: 100%;
 }
 
-/* bootstrap xl */
+/* css xl */
 @media (max-width: 1200px) {
     .dynamic-ordering-food-font-size {
         font-size: 40px;
@@ -51,7 +51,7 @@ body {
     }
 }
 
-/* bootstrap lg */
+/* css lg */
 @media (max-width: 992px) {
     .dynamic-ordering-food-font-size {
         font-size: 32px;
@@ -62,7 +62,7 @@ body {
     }
 }
 
-/* bootstrap md */
+/* css md */
 @media (max-width: 768px) {
     /*Align text to center.*/
     .text-xs-center {
@@ -70,7 +70,7 @@ body {
     }
 }
 
-/* bootstrap sm */
+/* css sm */
 @media (max-width: 576px) {
     .dynamic-ordering-food-font-size {
         font-size: 30px;
